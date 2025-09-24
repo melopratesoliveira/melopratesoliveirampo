@@ -1,0 +1,93 @@
+.filiaisSection {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  padding: 4rem 2rem;
+  background: rgba(15, 20, 37, 0.85); 
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tag {
+  display: inline-block;
+  color: #bc9c6b;
+  font-family: LehmannW08;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  width: 40px;
+  height: 2px;
+  background-color: #bc9c6b;
+  margin: 4px auto 0;
+}
+
+.title {
+  font-family: LehmannW08;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  color: #e2e2e2;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.filiaisSwiper {
+  position: static;
+  margin-top: 1rem;
+}
+
+.filiaisSwiper :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 18px
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+}
+
+
+

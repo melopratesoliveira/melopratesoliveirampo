@@ -1,0 +1,19 @@
+.whatsapp {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.whatsapp:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+@media (max-width: 782px) {
+  .whatsapp {
+    display: none;
+  }
+}

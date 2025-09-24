@@ -1,0 +1,172 @@
+.careersSection {
+  background-color: #151b2e;
+  padding: 4rem 3rem;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-family: LehmannW08;
+  font-size: 34px;
+  font-weight: 400;
+  color: #bc9c6b;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #fff;
+  max-width: 1200px;
+  margin-bottom: 91px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imageWrapper {
+  flex: 1 1 400px;
+  position: relative;
+  min-height: 500px;
+}
+
+.image {
+  object-fit: cover;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 15px;
+}
+
+.textBlock {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vagasTitle {
+  font-family: LehmannW08;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+
+.vagaBox {
+  border: 1px solid #2e344d;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.vagaHeader {
+  width: 100%;
+  background-color: #2b304a;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.icon {
+  color: #bc9c6b;
+  font-size: 18px;
+  margin-left: 1rem;
+}
+
+.vagaContent {
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vagaSection h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.vagaSection ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.vagaSection p,
+.vagaSection li {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin: 0 0 0.5rem 0;
+}
+
+.noVagas {
+  margin-top: 1rem;
+  margin-bottom: 1rem;;
+  font-style: italic;
+  color: #e0e0e0;
+}
+
+.ctaButton {
+  background-color: #bc9c6b;
+  color: #1e1e1e;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: start;
+  transition: background 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #a78457;
+}
+
+
+@media (max-width: 1024px) {
+  .careersSection {
+    margin-top: 3rem;
+    padding: 4rem 0;
+  }
+
+  .title {
+    font-size: 22px;
+
+  }
+
+  .subtitle {
+    font-size: 14px;
+    margin-bottom: 58px;
+  }
+
+  .vagasTitle, .noVagas {
+    font-size: 18px;
+    text-align: center;
+  }
+
+    .vagaSection h3,
+    .vagaSection p,
+    .vagaSection li,
+    .vagaHeader {
+      font-size: 12px;
+  
+    }
+    }

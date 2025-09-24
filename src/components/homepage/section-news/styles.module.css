@@ -1,0 +1,145 @@
+.section_two {
+    background-color: #1C2338CC;
+    padding: 1rem 2rem;
+    color: white;
+    margin-left: 4rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.left {
+    flex: 1.2;
+}
+
+.tag {
+    font-size: 14px;
+    color: #BC9C6B;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.divider {
+    width: 80px;
+    height: 2px;
+    background-color: #BC9C6B;
+    margin-top: 4px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.tag,
+.title,
+.newsTitle {
+    font-family: LehmannW08;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 14px;
+    color: #cfcfcf;
+    line-height: 1.5;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    max-width: 660px;
+
+}
+
+.newsSlide {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 200px;
+    min-width: 200px;
+    height: 150px;
+    min-height: 150px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+}
+
+
+
+.newsContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.newsTitle {
+    color: #d2a662;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.newsText {
+    font-size: 0.8rem;
+    color: #bdbdbd;
+    line-height: 1.4;
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .section_two {
+        margin: 0;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .newsSwiper {
+        position: static;
+        margin-top: 1rem;
+        z-index: 1;
+    }
+
+    .newsSwiper :global(.swiper-pagination) {
+        position: relative;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .newsSwiper :global(.swiper-pagination) {
+        justify-content: center;
+    }
+}
