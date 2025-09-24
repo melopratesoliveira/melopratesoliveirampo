@@ -22,6 +22,3 @@ export async function fetchDatoCMS(query) {
     return null;
   }
 }
-
-
-teste
