@@ -38,20 +38,35 @@
   margin-bottom: 2rem;
 }
 
-.button {
+.button,
+.buttonTwo {
   background-color: #bc9c6b;
   border: none;
   padding: 0.75rem 2rem;
-  color: #0d1329;
-  font-weight: bold;
   font-size: 0.9rem;
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s ease;
+  width: 255px;
+  height: 40px;
 }
 
-.button:hover {
-  background-color: #a78558;
+.button p,
+.buttonTwo p {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.button:hover,
+.buttonTwo:hover {
+  background-color: #a68358;
+}
+
+.buttonTwo {
+  width: 182px !important;
+  height: 40px;
 }
 
 .trabalheConosco {
@@ -106,13 +121,24 @@
   .title {
     font-size: 18px;
   }
+
   .description {
     font-size: 12px
   }
+
   .subtitle {
     font-size: 18px;
   }
+
   .textDescription {
     font-size: 12px;
   }
+
+  .linkHref {
+    display: block;
+    text-align: center;
+    width: 100% !important;
+  }
+
+
 }

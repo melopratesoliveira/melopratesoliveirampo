@@ -75,7 +75,7 @@ export const SectionPracticeAreas = () => {
         />
 
         <Link href="/areas-de-atuacao">
-          <button className={styles.button}>SAIBA MAIS</button>
+          <button className={styles.button}><p>SAIBA MAIS</p></button>
         </Link>
       </div>
     </section>

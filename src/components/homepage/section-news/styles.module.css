@@ -80,8 +80,6 @@
     object-fit: cover;
 }
 
-
-
 .newsContent {
     display: flex;
     flex-direction: column;
@@ -90,13 +88,13 @@
 
 .newsTitle {
     color: #d2a662;
-    font-size: 0.9rem;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 .newsText {
-    font-size: 0.8rem;
+    font-size: 12px;
     color: #bdbdbd;
     line-height: 1.4;
 }
@@ -142,4 +140,29 @@
     .newsSwiper :global(.swiper-pagination) {
         justify-content: center;
     }
+
+    .left {
+        margin-top: 31px;
+    }
+    .newsTitle {
+        font-size: 12px;
+    }
+    .newsSlide {
+        flex-direction: row;
+        align-items: anchor-center;
+        gap: 1rem;
+    }
+
+    .imageWrapper {
+        width: 140px;
+        min-width: 140px;
+        height: 110px;
+        min-height: 110px;
+    }
+
+    .newsContent {
+        gap: 0.4rem;
+    }
+
+   
 }

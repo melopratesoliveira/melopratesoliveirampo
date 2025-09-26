@@ -19,7 +19,7 @@ export const SectionEquipe = () => {
           que irão entregar o resultado que você necessita.
         </p>
         <Link href="/profissionais">
-          <button className={styles.button}>CONHEÇA NOSSO TIME</button>
+          <button className={styles.button}><p>CONHEÇA NOSSO TIME</p></button>
         </Link>
       </div>
 
@@ -35,8 +35,8 @@ export const SectionEquipe = () => {
             ac nulla maximus tincidunt in ac turpis. In malesuada blandit massa,
             quis vestibulum erat rhoncus ac.
           </p>
-          <Link href="/trabalhe-conosco">
-            <button className={styles.button}>SAIBA MAIS</button>
+          <Link href="/trabalhe-conosco" className={styles.linkHref}>
+            <button className={styles.buttonTwo}><p>SAIBA MAIS</p></button>
           </Link>
         </div>
 

@@ -29,8 +29,10 @@ export const SectionAbout = () => {
             mercado, entregando as melhores soluções de serviços jurídicos para
             todos os casos que chegam até nós.
           </p>
-          <Link href="/sobre">
-            <button className={styles.button}>SAIBA MAIS</button>
+          <Link href="/sobre" className={styles.linkHref}>
+            <button className={styles.button}>
+              <p>SAIBA MAIS</p>
+            </button>
           </Link>
         </div>
       </div>

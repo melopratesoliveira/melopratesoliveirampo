@@ -81,15 +81,26 @@
 }
 
 .button {
+  width: 182px;
+  height: 40px;
   margin: 3rem auto 0;
   padding: 0.8rem 1.5rem;
   background-color: #bc9c6b;
-  color: #0f1425;
   border: none;
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #a68358;
+}
+
+.button p {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: bold;
 }
 
 .button:hover {

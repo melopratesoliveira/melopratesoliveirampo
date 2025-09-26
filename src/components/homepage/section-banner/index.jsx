@@ -2,6 +2,7 @@ import { CustomSwiper } from "@/components/common/swiper";
 import styles from "./styles.module.css";
 import Link from "next/link";
 import { Header } from "@/components/common/header";
+import Image from "next/image";
 
 const branches = [
   {
@@ -45,17 +46,17 @@ export const SectionBanner = () => {
           {branch.location}
         </h1>
         <p className={styles.subtitle}>SOLUÇÕES JURÍDICAS PERSONALIZADAS</p>
-        <Link
-          href="https://wa.me/554896490073"
-          target="_blank"
-          className={styles.button}
-        >
-          AGENDE UMA CONSULTA
-          <img
-            src="/icones/iWhats.png"
-            alt="WhatsApp"
-            className={styles.icon}
-          />
+        <Link href="https://wa.me/554896490073" target="_blank">
+          <button className={styles.button}>
+            <p>AGENDE UMA CONSULTA</p>
+            <Image
+              width={24}
+              height={24}
+              src="/icones/iWhats.png"
+              alt="WhatsApp"
+              className={styles.icon}
+            />
+          </button>
         </Link>
       </div>
     </section>
