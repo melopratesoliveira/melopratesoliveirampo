@@ -17,13 +17,13 @@ export const FiliaisCallToAction = () => {
 
         <div className={styles.textAndButton}>
           <div className={styles.textWrapper}>
-            <h2>PRECISA DE UMA SOLUÇÃO JURÍDICA?</h2>
+            <h2>Precisa de orientação jurídica?</h2>
             <p>
               <strong>
-                Entre em contato conosco e descubra como podemos te ajudar!
+              Entre em contato conosco e saiba mais sobre nossos serviços
               </strong>
             </p>
-            <p>Estamos à disposição para lhe atender.</p>
+            <p>Estamos à disposição para atendê-lo.</p>
           </div>
 
           <button className={styles.ctaButton}>SOLICITE UMA CONSULTA</button>

@@ -15,9 +15,8 @@ export const CareersContent = ({ vagas }) => {
     <section className={styles.careersSection}>
       <h1 className={styles.title}>TRABALHE CONOSCO</h1>
       <p className={styles.subtitle}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl ac
-        nulla maximus tincidunt in ac turpis. In malesuada blandit massa, quis
-        vestibulum erat rhoncus ac.
+        Estamos em constante crescimento e buscamos novos talentos para compor nossa equipe, comprometidos e alinhados aos nossos valores.
+        Confira nossas vagas abertas e faça parte da nossa equipe.
       </p>
 
       <div className={styles.contentWrapper}>

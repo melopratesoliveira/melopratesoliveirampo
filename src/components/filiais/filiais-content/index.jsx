@@ -7,8 +7,8 @@ export const FiliaisContent = async ({filiais}) => {
       <h1 className={styles.title}>FILIAIS</h1>
 
       <p className={styles.description}>
-        A Melo Prates e Oliveira perto de você
-        Quer saber qual a filial mais perto de você? Confira abaixo e entre em contato.
+        A Melo Prates e Oliveira está presente em diferentes regiões do país <br />
+        Confira abaixo nossas unidades e encontre a mais conveniente para você.
         Será um prazer te atender e oferecer a solução exata que você precisa.
       </p>
 

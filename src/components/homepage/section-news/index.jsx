@@ -28,9 +28,7 @@ export const SectionNews = async ({ novidades }) => {
           <div className={styles.divider}></div>
           <h2 className={styles.title}>CONFIRA AS NOSSAS NOVIDADES.</h2>
           <p className={styles.description}>
-            Nosso maior objetivo é poder disponibilizar uma experiência única,
-            entregar as melhores soluções jurídicas e que cada cliente tenha um
-            resultado completo com 100% de satisfação.
+          Reunimos as principais novidades do escritório e do universo previdenciário e trabalhista, sempre com o compromisso de orientar e proteger quem confia no nosso trabalho.
           </p>
         </div>
 

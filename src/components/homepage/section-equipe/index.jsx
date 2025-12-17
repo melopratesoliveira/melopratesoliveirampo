@@ -31,9 +31,8 @@ export const SectionEquipe = () => {
           </span>
           <h3 className={styles.subtitle}>CONFIRA NOSSAS VAGAS EM ABERTO</h3>
           <p className={styles.textDescription}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl
-            ac nulla maximus tincidunt in ac turpis. In malesuada blandit massa,
-            quis vestibulum erat rhoncus ac.
+          Estamos em constante crescimento e buscamos novos talentos para compor nossa equipe, comprometidos e alinhados aos nossos valores.
+          Confira nossas vagas abertas e faça parte da nossa equipe.
           </p>
           <Link href="/trabalhe-conosco" className={styles.linkHref}>
             <button className={styles.buttonTwo}><p>SAIBA MAIS</p></button>

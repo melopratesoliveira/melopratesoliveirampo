@@ -7,27 +7,27 @@ const cards = [
   {
     icon: "/icones/iPrevidenciario.png",
     title: "PREVIDENCIÁRIO - REGIME GERAL E PRÓPRIO",
-    text: "Com uma alta especialização no sistema previdenciário, atendemos os diversos tipos de ações em torno dos benefícios por incapacidade do cliente, como auxílio-acidente, auxílio-doença ou aposentadoria por invalidez.",
+    text: " Com especialização sólida no sistema previdenciário, atuamos em todas as modalidades de benefícios por incapacidade, como auxílio-acidente, auxílio-doença e aposentadoria por invalidez, além de demandas relacionadas tanto ao Regime Geral quanto ao Regime Próprio de Previdência",
   },
   {
     icon: "/icones/iTrabalhista.png",
     title: "TRABALHISTA",
-    text: "Lutamos em defesa de todos os direitos e prerrogativas que são necessárias e obrigatórias para o trabalhador, sejam eles individuais ou coletivos.",
+    text: "Defendemos os direitos e prerrogativas do trabalhador, em âmbito individual ou coletivo, assegurando o cumprimento das normas legais e a proteção diante de violações contratuais ou institucionais.",
   },
   {
     icon: "/icones/iSindical.png",
     title: "SINDICAL",
-    text: "Nossos serviços também estão aptos para atuação na da defesa de sindicatos em todos os âmbitos críticos que o cliente necessite, inclusive patrocinando ações e dissídios coletivos.",
+    text: "Nossos serviços também contam com larga experiência na defesa coletiva de trabalhadores, atuando em todo o Brasil em favor de centrais sindicais e dezenas de sindicatos de diversos segmentos, tais como bancários, vigilantes, comerciários, portuários, servidores públicos, professores, entre outros.",
   },
   {
     icon: "/icones/iAdministrativo.png",
     title: "ADMINISTRATIVO",
-    text: "No setor administrativo atuamos em defesa dos interesses do cidadão perante a Administração Pública, garantindo os seus direitos e bens que a sociedade o resguarda.",
+    text: "No âmbito administrativo, atuamos na defesa dos interesses do cidadão perante a Administração Pública, garantindo a observância de seus direitos e a proteção dos bens que lhes são assegurados pela legislação",
   },
   {
     icon: "/icones/iCivel.png",
     title: "CÍVEL",
-    text: "Você pode contar também com nossos serviços em áreas de direito civil, sendo ela consultiva ou contenciosa.",
+    text: "Também prestamos assessoria em questões de direito civil, abrangendo tanto demandas consultivas quanto contenciosas, de acordo com as necessidades do cliente.",
   },
 ];
 

@@ -26,8 +26,7 @@ export const SectionAbout = () => {
           <p className={styles.description}>
             Atuando de maneira eficiente e especializada, a{" "}
             <strong>Melo Prates e Oliveira</strong> já está há 36 anos no
-            mercado, entregando as melhores soluções de serviços jurídicos para
-            todos os casos que chegam até nós.
+            mercado, oferecendo soluções jurídicas de qualidade para todos os casos que lhe são confiados.
           </p>
           <Link href="/sobre" className={styles.linkHref}>
             <button className={styles.button}>
