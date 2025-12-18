@@ -7,7 +7,7 @@ const cards = [
   {
     icon: "/icones/iPrevidenciario.png",
     title: "PREVIDENCIÁRIO - REGIME GERAL E PRÓPRIO",
-    text: " Com especialização sólida no sistema previdenciário, atuamos em todas as modalidades de benefícios por incapacidade, como auxílio-acidente, auxílio-doença e aposentadoria por invalidez, além de demandas relacionadas tanto ao Regime Geral quanto ao Regime Próprio de Previdência",
+    text: " Com especialização sólida no sistema previdenciário, atuamos em todas as modalidades de benefícios por incapacidade, como auxílio-acidente, auxílio-doença e aposentadoria por invalidez, além de demandas relacionadas tanto ao Regime Geral quanto ao Regime Próprio de Previdência.",
   },
   {
     icon: "/icones/iTrabalhista.png",
