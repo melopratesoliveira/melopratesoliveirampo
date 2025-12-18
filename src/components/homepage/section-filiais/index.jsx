@@ -63,7 +63,7 @@ export const SectionFiliais = async ({filiais}) => {
           <h2 className={styles.title}>ONDE ESTAMOS LOCALIZADOS?</h2>
 
           <p className={styles.subtitle}>
-          A Melo Prates e Oliveira está presente em diferentes regiões do país <br />
+          A Melo Prates e Oliveira está presente em diferentes regiões do país.<br />
             <br />
             Confira abaixo nossas unidades e encontre a mais conveniente para você.
 

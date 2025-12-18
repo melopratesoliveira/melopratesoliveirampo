@@ -13,13 +13,14 @@ export const SectionEquipe = () => {
         <h2 className={styles.title}>QUEM FAZ ACONTECER</h2>
         <p className={styles.description}>
           Nosso time é composto por{" "}
-          <strong>profissionais experientes e qualificados</strong> no ramo
-          jurídico, com equipes setorizadas e{" "}
-          <strong>multidisciplinares dentro de suas especializações</strong> –
-          que irão entregar o resultado que você necessita.
+          <strong>profissionais experientes e qualificados</strong> com equipes
+          setorizadas e multidisciplinares dedicadas a conduzir{" "}
+          cada caso com rigor tecnico e atenção às necessidades do cliente{" "}
         </p>
         <Link href="/profissionais">
-          <button className={styles.button}><p>CONHEÇA NOSSO TIME</p></button>
+          <button className={styles.button}>
+            <p>CONHEÇA NOSSO TIME</p>
+          </button>
         </Link>
       </div>
 
@@ -31,11 +32,14 @@ export const SectionEquipe = () => {
           </span>
           <h3 className={styles.subtitle}>CONFIRA NOSSAS VAGAS EM ABERTO</h3>
           <p className={styles.textDescription}>
-          Estamos em constante crescimento e buscamos novos talentos para compor nossa equipe, comprometidos e alinhados aos nossos valores.
-          Confira nossas vagas abertas e faça parte da nossa equipe.
+            Estamos em constante crescimento e buscamos novos talentos para
+            compor nossa equipe, comprometidos e alinhados aos nossos valores.
+            Confira nossas vagas abertas e faça parte da nossa equipe.
           </p>
           <Link href="/trabalhe-conosco" className={styles.linkHref}>
-            <button className={styles.buttonTwo}><p>SAIBA MAIS</p></button>
+            <button className={styles.buttonTwo}>
+              <p>SAIBA MAIS</p>
+            </button>
           </Link>
         </div>
 

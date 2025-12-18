@@ -20,7 +20,7 @@ export const FiliaisCallToAction = () => {
             <h2>Precisa de orientação jurídica?</h2>
             <p>
               <strong>
-              Entre em contato conosco e saiba mais sobre nossos serviços
+              Entre em contato conosco e saiba mais sobre nossos serviços.
               </strong>
             </p>
             <p>Estamos à disposição para atendê-lo.</p>

@@ -22,7 +22,7 @@ const cards = [
   {
     icon: "/icones/iAdministrativo.png",
     title: "ADMINISTRATIVO",
-    text: "No âmbito administrativo, atuamos na defesa dos interesses do cidadão perante a Administração Pública, garantindo a observância de seus direitos e a proteção dos bens que lhes são assegurados pela legislação",
+    text: "No âmbito administrativo, atuamos na defesa dos interesses do cidadão perante a Administração Pública, garantindo a observância de seus direitos e a proteção dos bens que lhes são assegurados pela legislação.",
   },
   {
     icon: "/icones/iCivel.png",
