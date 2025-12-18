@@ -3,8 +3,7 @@ import styles from "./styles.module.css";
 import { FilialCard } from "@/components/filiais/filiais-card";
 import { CustomSwiper } from "@/components/common/swiper";
 
-export const SectionFiliais = async ({filiais}) => {
-
+export const SectionFiliais = async ({ filiais }) => {
   if (!filiais || filiais.length === 0) {
     return (
       <section className={styles.filiaisSection}>
@@ -38,7 +37,7 @@ export const SectionFiliais = async ({filiais}) => {
       key={filial.nome}
       nome={filial.nome}
       endereco={filial.endereco}
-      imagem={filial.imagem?.url || "/imagem-filial.png"} 
+      imagem={filial.imagem?.url || "/imagem-filial.png"}
     />
   ));
 
@@ -63,11 +62,12 @@ export const SectionFiliais = async ({filiais}) => {
           <h2 className={styles.title}>ONDE ESTAMOS LOCALIZADOS?</h2>
 
           <p className={styles.subtitle}>
-          A Melo Prates e Oliveira está presente em diferentes regiões do país.<br />
+            A Melo Prates e Oliveira está presente em diferentes regiões do
+            país.
             <br />
-            Confira abaixo nossas unidades e encontre a mais conveniente para você.
-
-.
+            <br />
+            Confira abaixo nossas unidades e encontre a mais conveniente para
+            você.
           </p>
 
           <div className={styles.carouselWrapper}>
