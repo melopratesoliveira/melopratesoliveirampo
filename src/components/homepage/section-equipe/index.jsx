@@ -15,7 +15,7 @@ export const SectionEquipe = () => {
           Nosso time é composto por{" "}
           <strong>profissionais experientes e qualificados</strong> com equipes
           setorizadas e multidisciplinares dedicadas a conduzir{" "}
-          cada caso com rigor tecnico e atenção às necessidades do cliente{" "}
+          cada caso com rigor tecnico e atenção às necessidades do cliente.{" "}
         </p>
         <Link href="/profissionais">
           <button className={styles.button}>
