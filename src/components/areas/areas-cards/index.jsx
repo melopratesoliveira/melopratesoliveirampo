@@ -34,7 +34,7 @@ export const PraticeAreasCard = () => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>
-        Conheça nossas áreas e verifique qual a ideal a que melhor te atende no
+        Conheça nossas áreas e verifique a que melhor te atende no
         momento:
       </h2>
       <div className={styles.grid}>
